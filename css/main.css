@@ -153,6 +153,9 @@ a:focus {
 	margin: 0 0 80px 0;
 	text-shadow: none;
 }
+.h-Bold-custom-light {
+	color: #ffffff;
+}
 .xh-Bold {
 	color: #fff;
 	font: 36px/40px 'OpenSans_Bold',Arial,Helvetica,sans-serif;
@@ -164,6 +167,9 @@ a:focus {
 	font: 36px/36px 'OpenSans_Bold',Arial,Helvetica,sans-serif;
 	margin: 0 0 18px;
 	text-transform: uppercase;
+}
+.xxh-Bold-light {
+	color: #ffffff;	
 }
 .medium-h {
 	color: #fff;
@@ -188,6 +194,9 @@ a:focus {
 	color: #999;
 	font: 16px/15px 'OpenSans_Regular',Arial,Helvetica,sans-serif;
 	margin: 0 0 35px;
+}
+.xxmedium-h-light {
+	color: #fff;
 }
 .xxxmedium-h {
 	color: #CECECD;
@@ -538,7 +547,7 @@ img {
 /*===================>-Content-<==================*/
 .software_slider {
 	width: 100%;
-	background: url("../img/slider_bg_2.jpg") no-repeat fixed top center #FF5B62;
+	background: url("../img/slider_bg_2.jpg") no-repeat fixed top center;
 	padding-top: 145px;
 	box-shadow: 2px 2px 2px #222222;
 	-moz-box-shadow: 2px 2px 2px #222222;
@@ -546,11 +555,17 @@ img {
 }
 .featuress {
 	width: 100%;
-	background: url("../img/staticks/feature.jpg") no-repeat fixed top center #FF5B62;
+	background: url("../img/staticks/feature.jpg") no-repeat fixed top center;
 	padding-top: 145px;
 	box-shadow: 2px 2px 2px #222222;
 	-moz-box-shadow: 2px 2px 2px #222222;
 	-webkit-box-shadow: 2px 2px 2px #222222;
+}
+.featuress2 {
+	width: 100%;
+	background: url("../img/staticks/feature2.jpg") no-repeat fixed top center;
+	padding-top: 145px;
+	margin-bottom: 100px;
 }
 .forma-slider .bx-wrapper .bx-controls-direction a {
 	top: 50%;
@@ -2360,6 +2375,7 @@ span.customSelect {
 #animIt3,
 #animIt4,
 #trainings,
+#trainings2,
 #animIt5,
 #animIt6,
 #animIt7,

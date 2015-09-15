@@ -15,6 +15,7 @@ if(!Modernizr.input.placeholder){
 $('ul li:last-child').addClass('lastItem');
 $('ul li:first-child').addClass('firstItem');
 $('#gallery .span6:eq(-1), #gallery .span6:eq(-2)').addClass('mar-clear');
+$('#gallery2 .span6:eq(-1), #gallery2 .span6:eq(-2)').addClass('mar-clear');
 
 
 //---------------------------------------------------------

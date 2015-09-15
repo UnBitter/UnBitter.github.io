@@ -135,6 +135,10 @@ $('#trainings').waypoint(function() {
 	setTimeout(function(){$('#trainings').addClass('fadeOutTop')},0);
 }, { offset: '65%' });
 
+$('#trainings2').waypoint(function() {
+	setTimeout(function(){$('#trainings2').addClass('fadeOutTop')},0);
+}, { offset: '65%' });
+
 $('#animIt5').waypoint(function() {
 	setTimeout(function(){$('#animIt5').addClass('fadeOutBigLeft')},0);
 	setTimeout(function(){$('#animIt6').addClass('fadeOutBigRight')},0);
