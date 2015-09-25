@@ -63,7 +63,7 @@ $(".group5").colorbox({
 // *************
 // BxSlider
 // *************
-var bxSlider = $('.software_slider .form-bxslider').bxSlider({
+/*var bxSlider = $('.software_slider .form-bxslider').bxSlider({
 	mode: 'fade',
 	auto: true,
 	pause: 10000,
@@ -118,7 +118,7 @@ $('.aboutUs-slider').bxSlider({
 	autoHover: true,
 	pager: false,
 	auto: true
-});
+});*/
 
 // *************
 // Paralax

@@ -142,11 +142,12 @@ a:focus {
 	margin: 0 0 60px;
 }
 .h-Bold {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 	font: 56px/76px 'OpenSans_Bold',Arial,Helvetica,sans-serif;
 	margin: 0 0 18px;
 	text-transform: uppercase;
-	text-shadow: 2px 2px 0 #2c3e50;
+	/* text-shadow: 2px 2px 0 #2c3e50; */
 }
 .h-Bold-custom {
 	color: #2C3E50;
@@ -172,14 +173,15 @@ a:focus {
 	color: #ffffff;	
 }
 .medium-h {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 	font: 34px/25px 'OpenSans_Bold',Arial,Helvetica,sans-serif;
 	margin: 0;
 	text-transform: uppercase;
 }
 .spec-cont {
 	margin: 0 0 40px 0;
-	border: 1px solid #fff;
+	border: 1px solid #333;
 	padding: 30px 0 10px 0;
 }
 .medium-h-custom {
@@ -204,7 +206,8 @@ a:focus {
 	margin: 0;
 }
 .xsmall-h {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 	font: 24px/32px Arial,Helvetica,sans-serif;
 	margin: 20px 0 0 0;
 }
@@ -455,7 +458,8 @@ img {
 	background-position: -50px -20px;
 }
 .social-transform a {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 }
 .social-link .back {
 	color: #000;
@@ -497,7 +501,8 @@ img {
 	margin-left: 22px;
 }
 .nav-menu a {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 	font: 16px/20px 'OpenSans_Bold',Arial;
 	text-transform: uppercase;
 }
@@ -519,7 +524,8 @@ img {
 	top: -2px;
 }
 .backside {
-	color: #fff;
+	/* color: #fff; */
+	color: #333;
 	text-decoration: underline;
 }
 .end-header {
@@ -547,7 +553,7 @@ img {
 /*===================>-Content-<==================*/
 .software_slider {
 	width: 100%;
-	background: url("../img/slider_bg_3.jpg") no-repeat fixed top center;
+	background: url("../img/slider_bg_6.jpg") no-repeat fixed top center;
 	padding-top: 145px;
 	box-shadow: 2px 2px 2px #222222;
 	-moz-box-shadow: 2px 2px 2px #222222;
@@ -727,10 +733,11 @@ img {
 	padding: 10px;
 }
 .ul-list-slider {
-	color: #fff;
-	font-family: 'OpenSans_Regular', Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	line-height: 40px;
+	/* color: #fff; */
+	color: #333;
+	font-family: 'OpenSans_Bold', Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	line-height: 65px;
 	list-style: none outside none;
 	padding-left: 47px;
 }
@@ -738,11 +745,11 @@ img {
 	position: relative;
 }
 .ul-list-slider li:before {
-	color: #fff;
+	color: #333;
 	content: "";
 	display: block;
 	font-family: fontawesome;
-	font-size: 20px;
+	font-size: 35px;
 	left: -39px;
 	position: absolute;
 	top: 0;
@@ -755,7 +762,7 @@ img {
 .list-forstart {
 	float: left;
 	position: relative;
-	width: 40%;
+	width: 65%;
 	z-index: 1;
 }
 .list-forstart .desc {
@@ -793,7 +800,7 @@ img {
 .fin_1,
 .fin_2,
 .fin_3 {
-	opacity: 0;
+	opacity: 1;
 }
 #form_slider .bx-default-pager a {
 	border: 1px solid;
@@ -1047,7 +1054,7 @@ img {
 	position: absolute;
 	right: 0;
 	text-align: center;
-	top: 174px;
+	top: 124px;
 	width: 340px;
 }
 #elem-portable {
@@ -1079,7 +1086,7 @@ textarea {
 	margin-bottom: 13px;
 	padding: 6px 12px;
 	resize: none;
-	border: 1px solid transparent;
+	border: 1px solid #333;
 	width: 100%;
 }
 textarea {
@@ -1147,17 +1154,20 @@ form .success input, form .success textarea {
 	margin-right: 10px;
 }
 .sub-form {
-	background: #ff9e21;
-	border: 3px solid #fff;
+	
+	border: 3px solid #333;
 	font: 16px/20px 'OpenSans_Bold',Arial;
 	text-transform: uppercase;
+	/* color: #333; */
+	background: #ff5d21;	
+	color: #fff;
 }
 .sub-form:hover, .sub-form:focus, .sub-form:active {
 	/* background: #2F4151;
 	border-color: #2F4151; */
-	background: #ff5d21;	
+	background: #ff9e21;
+	border: 3px solid #333;
 	color: #fff;
-	border: 3px solid #fff;
 }
 .filter {
 	margin-bottom: 22px;
