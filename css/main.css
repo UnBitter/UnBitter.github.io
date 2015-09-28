@@ -595,6 +595,15 @@ img {
 	-moz-box-shadow: 2px 2px 2px #222222;
 	-webkit-box-shadow: 2px 2px 2px #222222; */
 }
+.software_slider6 {
+	width: 100%;
+	background: url("../img/slider_bg_11.jpg") no-repeat fixed top center;
+	padding-top: 145px;
+	border-bottom: 1px solid #777;
+	/* box-shadow: 2px 2px 2px #222222;
+	-moz-box-shadow: 2px 2px 2px #222222;
+	-webkit-box-shadow: 2px 2px 2px #222222; */
+}
 .featuress {
 	width: 100%;
 	background: url("../img/staticks/feature.jpg") no-repeat fixed top center;
