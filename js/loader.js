@@ -186,7 +186,7 @@ if (window.devicePixelRatio > 1.5) {
 	var lowresImages = $('img');
 	lowresImages.each(function(i) {
 		var lowres = $(this).attr('src');
-		var highres = lowres.replace(".", "r.");
+		/*var highres = lowres.replace(".", "r.");*/
 		$(this).attr('src', highres);
 	});
 
