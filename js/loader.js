@@ -110,7 +110,7 @@ $('.xSlider').bxSlider({
 	}
 });
 
-
+*/
 
 $('.aboutUs-slider').bxSlider({
 	mode: 'horizontal',
@@ -118,7 +118,7 @@ $('.aboutUs-slider').bxSlider({
 	autoHover: true,
 	pager: false,
 	auto: true
-});*/
+});
 
 // *************
 // Paralax
